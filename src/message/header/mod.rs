@@ -17,6 +17,7 @@ pub use self::{
     mailbox::*,
     special::*,
     textual::*,
+    customize::*,
 };
 use crate::BoxError;
 
@@ -27,6 +28,7 @@ mod date;
 mod mailbox;
 mod special;
 mod textual;
+mod customize;
 
 /// Represents an email header
 ///
